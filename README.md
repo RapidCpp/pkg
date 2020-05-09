@@ -1,17 +1,22 @@
-# Vcpkg
+# CMake 
 
 ## Overview
-Vcpkg helps you manage C and C++ libraries on Windows, Linux and MacOS. This tool and ecosystem are constantly evolving; your involvement is vital to its success!
 
-For short description of available commands, run `vcpkg help`.
+[CMake](https://cmake.sh) helps you manage C and C++ libraries on Windows, Linux, MacOS, Raspberry Pi, iOS and android, etc. This tool and ecosystem are constantly evolving; your involvement are vital to its success!
+
+Currently this project depends on [vcpkg](https://github.com/microsoft/vcpkg). For short description of available commands, run vcpkg help.
 
 * Github: [https://github.com/microsoft/vcpkg](https://github.com/microsoft/vcpkg)
 * Slack: [https://cppalliance.org/slack/](https://cppalliance.org/slack/), the #vcpkg channel
 * Docs: [Documentation](docs/index.md)
 
-[![Build Status](https://dev.azure.com/vcpkg/public/_apis/build/status/microsoft.vcpkg.ci?branchName=master)](https://dev.azure.com/vcpkg/public/_build/latest?definitionId=29&branchName=master)
+## Possibilities
+
+* [milestone1](https://github.com/suhao/cmake/issues/1#issue-607267924)
+
 
 ## Quick Start
+
 Prerequisites:
 - Windows 10, 8.1, 7, Linux, or MacOS
 - Visual Studio 2015 Update 3 or newer (on Windows)
@@ -64,22 +69,11 @@ Our docs are now also available online at ReadTheDocs: <https://vcpkg.readthedoc
 
 See a 4 minute [video demo](https://www.youtube.com/watch?v=y41WFKbQFTw).
 
+
 ## Contributing
 Vcpkg is built with your contributions. Here are some ways you can contribute:
 
-* [Submit Issues](https://github.com/Microsoft/vcpkg/issues) in vcpkg or existing packages
-* [Submit Fixes and New Packages](https://github.com/Microsoft/vcpkg/pulls)
+* [Submit Issues](https://github.com/suuhao/cmake/issues) in vcpkg or existing packages
+* [Submit Fixes and New Packages](https://github.com/suhao/cmake/pulls)
 
 Please refer to our [Contribution guidelines](CONTRIBUTING.md) for more details.
-
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
-
-## License
-
-Code licensed under the [MIT License](LICENSE.txt).
-
-## Telemetry
-
-vcpkg collects usage data in order to help us improve your experience. The data collected by Microsoft is anonymous. You can opt-out of telemetry by running `bootstrap-vcpkg.bat` or `bootstrap-vcpkg.sh` with `-disableMetrics`.
-
-Read more about vcpkg telemetry at docs/about/privacy.md
